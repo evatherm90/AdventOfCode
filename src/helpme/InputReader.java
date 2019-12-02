@@ -21,7 +21,7 @@ public class InputReader {
     
         try {
             File file =
-                    new File("/home/antonis/Documents/adventinput.txt");
+                    new File("Documents/adventinput.txt");
             Scanner sc = new Scanner(file);
             
             while (sc.hasNextLine()) 
